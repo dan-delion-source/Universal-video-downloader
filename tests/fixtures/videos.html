@@ -1,0 +1,12 @@
+<!doctype html><html><head><title>Sample collection</title>
+<meta property="og:video" content="/clips/a.mp4">
+<meta property="og:image" content="/poster.jpg">
+<meta name="twitter:player:stream" content="https://cdn.example.org/b.webm">
+</head><body>
+<video src="/clips/a.mp4"><source src="/clips/a.mp4"></video>
+<video><source src="../stream/master.m3u8?token=123&amp;x=2"></video>
+<script type="application/ld+json">{"@graph":[{"@type":"VideoObject","name":"A film","contentUrl":"/film.mp4"}]}</script>
+<script>const media = "https:\/\/cdn.example.org\/dynamic.mpd?key=abc";</script>
+<a href="/last.webm">Last clip</a>
+<video src="file:///etc/passwd"></video>
+</body></html>
